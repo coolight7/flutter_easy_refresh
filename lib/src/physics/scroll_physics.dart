@@ -33,6 +33,11 @@ class _ERScrollPhysics extends BouncingScrollPhysics {
     ));
   }
 
+  void dispose() {
+    _headerSimulationCreationState.dispose();
+    _footerSimulationCreationState.dispose();
+  }
+
   @override
   _ERScrollPhysics applyTo(ScrollPhysics? ancestor) {
     return _ERScrollPhysics(

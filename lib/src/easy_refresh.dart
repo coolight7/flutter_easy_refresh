@@ -392,6 +392,7 @@ class _EasyRefreshState extends State<EasyRefresh>
     _headerNotifier.dispose();
     _footerNotifier.dispose();
     _userOffsetNotifier.dispose();
+    _physics.dispose();
     super.dispose();
   }
 
