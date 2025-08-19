@@ -15,10 +15,10 @@ class _BubblesIndicator extends StatefulWidget {
   final bool reverse;
 
   const _BubblesIndicator({
-    Key? key,
+    super.key,
     required this.state,
     required this.reverse,
-  }) : super(key: key);
+  });
 
   @override
   State<_BubblesIndicator> createState() => _BubblesIndicatorState();

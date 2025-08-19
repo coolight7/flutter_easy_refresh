@@ -16,11 +16,11 @@ class _SquatsIndicator extends StatefulWidget {
   final Color? backgroundColor;
 
   const _SquatsIndicator({
-    Key? key,
+    super.key,
     required this.state,
     required this.reverse,
     this.backgroundColor,
-  }) : super(key: key);
+  });
 
   @override
   State<_SquatsIndicator> createState() => _SquatsIndicatorState();
