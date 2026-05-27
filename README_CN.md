@@ -23,6 +23,17 @@
  - 支持安全区域，不再有遮挡
  - 自定义滚动参数，让列表具有不同的滚动反馈和惯性
 
+## 配套包
+
+分页能力现在拆分到了独立的 `easy_paging` [![Pub](https://img.shields.io/pub/v/easy_paging)](https://pub.dev/packages/easy_paging) 包中。
+
+```dart
+import 'package:easy_paging/easy_paging.dart';
+import 'package:easy_refresh/easy_refresh.dart';
+```
+
+示例实现见：`example/lib/page/sample/paging_page.dart`
+
 ## 简单用例
 #### 1.默认构造器
  - child作用域内，所有滚动组件会公用一个physics。如果有滚动嵌套，请使用EasyRefresh.builder或用ScrollConfiguration设置作用域
@@ -116,6 +127,17 @@
   EasyRefresh.defaultHeaderBuilder = () => ClassicHeader();
   EasyRefresh.defaultFooterBuilder = () => ClassicFooter();
 ```
+
+## 样式搜集
+
+| 包名 | Pub |
+| --- | --- |
+| [easy_refresh_bubbles](https://pub.dev/packages/easy_refresh_bubbles) | [![Pub](https://img.shields.io/pub/v/easy_refresh_bubbles)](https://pub.dev/packages/easy_refresh_bubbles) |
+| [easy_refresh_bow](https://pub.dev/packages/easy_refresh_bow) | [![Pub](https://img.shields.io/pub/v/easy_refresh_bow)](https://pub.dev/packages/easy_refresh_bow) |
+| [easy_refresh_halloween](https://pub.dev/packages/easy_refresh_halloween) | [![Pub](https://img.shields.io/pub/v/easy_refresh_halloween)](https://pub.dev/packages/easy_refresh_halloween) |
+| [easy_refresh_skating](https://pub.dev/packages/easy_refresh_skating) | [![Pub](https://img.shields.io/pub/v/easy_refresh_skating)](https://pub.dev/packages/easy_refresh_skating) |
+| [easy_refresh_space](https://pub.dev/packages/easy_refresh_space) | [![Pub](https://img.shields.io/pub/v/easy_refresh_space)](https://pub.dev/packages/easy_refresh_space) |
+| [easy_refresh_squats](https://pub.dev/packages/easy_refresh_squats) | [![Pub](https://img.shields.io/pub/v/easy_refresh_squats)](https://pub.dev/packages/easy_refresh_squats) |
 
 ## 欢迎贡献
 一个人的维护是孤独的。如果你有好的建议和改动，欢迎贡献你的代码。如果你有非常酷的样式，能够分享给大家那就更酷了。
