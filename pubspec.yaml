@@ -1,6 +1,5 @@
 name: flutter_easy_refresh
 workspace:
-  - example
   - packages/easy_refresh
   - packages/easy_paging
   - packages/easy_refresh_bubbles
