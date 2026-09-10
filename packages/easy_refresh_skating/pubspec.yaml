@@ -16,6 +16,7 @@ dependencies:
   rive: ^0.14.4
   easy_refresh: ^3.5.1
 
+  material_ui: any
 dev_dependencies:
   flutter_test:
     sdk: flutter

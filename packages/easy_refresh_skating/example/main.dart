@@ -1,5 +1,5 @@
 import 'package:easy_refresh_skating/easy_refresh_skating.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:easy_refresh/easy_refresh.dart';
 
 void main() => runApp(const MyApp());
